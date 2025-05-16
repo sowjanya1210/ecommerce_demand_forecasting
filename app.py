@@ -5,6 +5,7 @@ from scripts.preprocess import preprocess_m5_sales, preprocess_m5_by_item
 from scripts.forecasting import forecast_trends, forecast_sales_m5
 from scripts.visualization import plot_trend, plot_forecast, plot_sales_forecast
 import gdown
+import os
 
 st.set_page_config(layout="wide")
 st.title("📊 E-commerce Demand Forecasting Dashboard")
